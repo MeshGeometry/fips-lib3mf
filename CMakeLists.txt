@@ -12,8 +12,8 @@ endif()
 
 
 
-fips_add_subdirectory(lib3mf/)
-#fips_libs(pmp)
+# fips_add_subdirectory(lib3mf/)
+# fips_libs(lib3mf)
 
 
 if (NOT FIPS_IMPORT)
