@@ -5,7 +5,10 @@
 
 exports:
     header-dirs: 
-      - lib3mf/Include
+      - lib3mf/Include/API
+      - lib3mf/Include/Common
+      - lib3mf/Include/Libraries
+      - lib3mf/Include/Model
     modules:
       lib3mf: lib3mf/
 
