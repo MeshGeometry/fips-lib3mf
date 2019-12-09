@@ -1,0 +1,11 @@
+#
+# fips-lib3mf
+#
+---
+
+exports:
+    header-dirs: 
+      - lib3mf/Include
+    modules:
+      lib3mf: lib3mf/
+
