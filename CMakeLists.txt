@@ -11,7 +11,9 @@ if (NOT FIPS_IMPORT)
 endif()
 
 
-
+    
+set(FIPS_EXCEPTIONS ON CACHE BOOL "Enable C++ exceptions" FORCE)
+set(FIPS_RTTI  ON CACHE BOOL "Enable C++ RTTI" FORCE)
 fips_add_subdirectory(lib3mf/)
 fips_libs(lib3mf)
 
