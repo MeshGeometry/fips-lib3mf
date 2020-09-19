@@ -13,6 +13,10 @@ endif()
 set(FIPS_EXCEPTIONS ON CACHE BOOL "Enable C++ exceptions" FORCE)
 set(FIPS_RTTI ON CACHE BOOL "Enable C++ RTTI" FORCE)
 
+# Set lib3mf options
+option(LIB3MF_TESTS "Switch whether the tests of lib3mf should be build" OFF)
+
+# Create lib3mf target
 fips_add_subdirectory(lib3mf)
 
 # Disable "treat warnings as errors" (https://github.com/floooh/fips/issues/253)
