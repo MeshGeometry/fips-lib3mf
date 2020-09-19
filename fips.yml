@@ -2,15 +2,13 @@
 # fips-lib3mf
 #
 ---
-
 exports:
     header-dirs: 
       - lib3mf/Include/API
       - lib3mf/Include/Common
       - lib3mf/Include/Libraries
       - lib3mf/Include/
-      - lib3mf/AutomaticComponentToolkit/Lib3MF_component/Implementations/Cpp/Interfaces/
     modules:
-      lib3mf: lib3mf/
+      lib3mf: .
 
 
